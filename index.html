@@ -26,9 +26,10 @@
                 <button>👍 <span>0</span>​</button>
            
             <div>
-                <h2>Meu primeiro post</h2> <img src="dna.jpeg" alt=" Ícone quadrado em estilo pixel art com tons de rosa sobre fundo branco. No centro, destaca-se uma cadeia de DNA diagonal. Ao redor dela, há desenhos de um microscópio, tubos de ensaio, béqueres de laboratório, uma célula, um átomo e as fórmulas químicas da água e da glicose.">
+                <h2>Oque são?</h2> <img src="dna.jpeg" alt=" Ícone quadrado em estilo pixel art com tons de rosa sobre fundo branco. No centro, destaca-se uma cadeia de DNA diagonal. Ao redor dela, há desenhos de um microscópio, tubos de ensaio, béqueres de laboratório, uma célula, um átomo e as fórmulas químicas da água e da glicose.">
                 <p class="artigo-autor">Por: Ana Eloisa</p>
-                <p>Boas-vindas ao meu novo blog! Aqui vou compartilhar informações e curiosidades sobre a biologia e quimica.</p>
+                <p>Biologia é a ciência que estuda a vida e os organismos vivos, abrangendo suas estruturas, funções, crescimento, evolução e interações com o meio ambiente. Ela investiga desde microorganismos invisíveis a olho nu, como bactérias e vírus, até grandes ecossistemas e seres complexos, como plantas e animais.
+Química é a ciência que estuda a matéria, suas propriedades, composição, estrutura e as transformações que ela sofre durante as reações químicas. Ela analisa como os átomos e as moléculas se combinam para formar tudo o que existe no universo, desde a água que bebemos até os materiais sintéticos e medicamentos.</p>
                 <button>❤️ <span>0</span>​</button>
                 <button>👍 <span>0</span>​</button> </div>
                        
@@ -37,27 +38,9 @@
            
  
         </main>
-    </body>
-    <script>
-        const botoes = document.querySelectorAll("button");
 
-        botoes.forEach( function(botao){
-            let curtiu = false;
-            botao.addEventListener("click", botaoClicado);
-            function botaoClicado(){
-                console.log("fui clicado");
-                let texto = botao.querySelector("span");
-                if (curtiu === false){
-                    texto.textContent++;
-                    curtiu = true;
-                } else{
-                    texto.textContent--;
-                    curtiu = false;
-                }
-            }
-        })
-       
-        
-    </script>
+        <script src="script.js"></script>
+    </body>
+    
 
     </html>
